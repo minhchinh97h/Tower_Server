@@ -11,7 +11,12 @@ admin.initializeApp({
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-  res.render('index', { title: 'Express' });
+  console.log("check")
 });
+
+
+router.post('/', (req, res, next) => {
+  
+})
 
 module.exports = router;
